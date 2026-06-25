@@ -33,5 +33,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Ped and prop presets** — eight quick-spawn presets per type in `config.lua`,
   accessible from the Placer tab dropdown.
 
-[Unreleased]: https://github.com/Neenbyss/nb-devtools/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/Neenbyss/nb-devtools/releases/tag/v1.0.0
+[Unreleased]: https://github.com/neenbyss/nb-devtools/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/neenbyss/nb-devtools/releases/tag/v1.0.0
