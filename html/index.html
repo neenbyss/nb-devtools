@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>nb-devtools</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app" class="hidden">
+    <div id="panel">
+      <div id="header">
+        <span class="title">⚙ nb-devtools</span>
+        <button id="btn-close" title="Close (ESC)">✕</button>
+      </div>
+
+      <div id="tabs">
+        <button class="tab active" data-tool="coords">Coords</button>
+        <button class="tab" data-tool="placer">Placer</button>
+        <button class="tab" data-tool="camera">Camera</button>
+        <button class="tab" data-tool="inspector">Inspector</button>
+      </div>
+
+      <div id="content"></div>
+
+      <div id="keyboard-badge" class="hidden">
+        <span>⌨ Keyboard Active</span>
+        <button id="btn-reclaim">Click to reclaim focus</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="hidden">Copied!</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
